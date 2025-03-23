@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / package files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment (if used)
+venv/
+.env/
+.venv/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+nosetests.xml
+coverage.xml
+*.pyc
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.iml
+
+# Dependency files
+pip-log.txt
+pip-delete-this-directory.txt
+node_modules/
+
+# Compiled files (C extensions, Cython, etc.)
+*.so
+*.pyd
+*.dll
+*.o
+*.a
+
+# Ignore main executable (if compiled separately)
+main
