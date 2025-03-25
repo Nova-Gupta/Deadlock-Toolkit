@@ -115,8 +115,3 @@ class DeadlockToolkitGUI:
                 messagebox.showwarning("Deadlock Recovery", "No deadlock detected, no process terminated.")
         except Exception as e:
             messagebox.showerror("Error", f"Invalid Input: {e}")
-
-if __name__ == "__main__":
-    root = tk.Tk()
-    app = DeadlockToolkitGUI(root)
-    root.mainloop()
